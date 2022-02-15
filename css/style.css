@@ -19,6 +19,17 @@ nav {
   justify-content: space-between;
 }
 
+.rollBtn{
+  background:rgb(43, 9, 231);
+  color:white;
+  border:none;
+  margin:auto 0;
+  font-size:1em;
+  margin-top:1em;
+  
+  border-radius: 50px;
+}
+
 
 section.board {
   display: grid;
@@ -42,25 +53,25 @@ div {
   text-align: center;
   vertical-align: middle;
 }
-[id^='aqua'] {
+.cell.aqua  {
   background-color: aquamarine;
   font-size: 20px;
 }
-[id^='yellow']{
+.cell.yellow {
   background-color: yellow;
   font-size: 20px;
   
 }
-[id^='gold']{
+.cell.gold {
   background-color:darkgoldenrod;
   font-size: 20px;
 }
-[id^='blue']{
+.cell.blue{
   background-color:cornflowerblue;
   font-size: 20px;
 }
 
-#red81{
+.cell.red {
   background-color: crimson;
 }
 
@@ -69,3 +80,6 @@ div {
   margin: 15px 46rem  15px;
   background-color: crimson;
 }
+
+
+
